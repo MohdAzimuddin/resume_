@@ -1,0 +1,175 @@
+\documentclass[letterpaper,8.5pt]{article} % Reduced font size further to 8.5pt
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames,svgnames,table,x11names,HTML]{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+
+% Adjust margins for one-page fit
+\addtolength{\oddsidemargin}{-0.8in}
+\addtolength{\evensidemargin}{-0.8in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.99in} % Reduced top margin
+\addtolength{\textheight}{2.0in} % Increased text height
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\small\bfseries % Smaller section titles
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\footnotesize{\textbf{#1\vspace{-1pt}}} % Adjusted to footnotesize
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\textcolor{Black}{#1}} & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=\textbullet, itemsep=0pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% %----------HEADING----------
+\begin{center}
+    {\Huge \scshape Mohd Azimuddin} \\ \vspace{3pt}
+    {\Large \scshape Frontend Developer} \\ \vspace{3pt}
+    \small Neral, Maharashtra \\ \vspace{4pt}
+  \small \href{tel:+8291443947}{\underline{+91-8291443947}}~
+    \href{mailto:sfsuper2020@gmail.com}{\ \underline {sfsuper2020@gmail.com}} ~
+    \href{https://mohdazimuddinport.netlify.app}{\ \underline{Portfolio Website}} ~
+    \href{https://linkedin.com/in/mohd-azimuddin-shaikh-34284b202}{\underline{LinkedIn Profile}} ~
+    \href{https://github.com/MohdAzimuddin}{\ \underline{GitHub}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Tech Profile}
+\resumeSubHeadingListStart
+    \resumeItem{Frontend Developer with expertise in React.js, JavaScript, and UI/UX optimization. Passionate about building scalable, high-performance web applications with a strong focus on accessibility and clean code. Successfully improved web performance and SEO rankings for multiple projects.}
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Somaiya Vidyavihar University, Mumbai}{2020 -- 2023}
+      {\textbf{Bachelor of Computer Applications (BCA)} - \textbf{CGPA: 7.61}}{Mumbai, Maharashtra}
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\resumeSubHeadingListStart
+  \resumeItemListStart
+    \resumeItem{Frontend: \textbf{HTML5, CSS3, JavaScript (ES6+), React.js (API Integration, Context API, Hooks)}}
+    \resumeItem{React Libraries: \textbf{React Router DOM, Styled Components, Framer Motion}}
+    \resumeItem{Version Control: \textbf{Git, GitHub}}
+ \resumeItem{Tools: \textbf{Visual Studio Code, React Developer Tool, Lighthouse, Netlify, Replit}}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Freelance Frontend Developer}{Aug 2024 -- Jan 2025}
+        {Offline}{}
+    \resumeItemListStart
+        \resumeItem{Developed custom web solutions for 5+ small businesses, improving website performance by 30\%}
+        \resumeItem{Developed reusable UI components using \textbf{React.js} and \textbf{styled components}.}
+        \resumeItem{Liaised directly with clients for requirement gathering.}
+        \resumeItem{Implemented responsive designs to ensure accessibility across different devices.}
+      \resumeItem{\textbf{Quantified Impact :} {Enhanced client website accessibility, improved performance and achieved an A grade on Lighthouse audits for both mobile and desktop, resulting in faster load times and better user experience.}}
+
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SELECTED PROJECTS-----------
+\section{SELECTED PROJECTS}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {E-commerce Web Application - React.js, CSS, React Router, Framer Motion}{Dec 2024 -- Jan 2025}
+        \resumeItemListStart 
+            \resumeItem{Built a responsive e-commerce platform to showcase and sell classic suits.}
+            \resumeItem{Implemented cart functionality, coupon code redemption, and effective order total calculations.}
+            \resumeItem{Leveraged React Router for efficient client-side routing.}
+            \resumeItem{Integrated Framer Motion for creating engaging UI animations.}
+        \resumeItemListEnd
+        \small{\href{https://azimuddin-clothskart.netlify.app/}{\underline{Live Demo}} ~ | ~ 
+        \href{https://github.com/MohdAzimuddin/ClothsKart}{\underline{Source Code}}}
+
+    \resumeProjectHeading
+        {Live News Web Application - React.js, CSS, Framer Motion}{Oct 2024 -- Nov 2024}
+        \resumeItemListStart
+            \resumeItem{Crafted a responsive news application delivering global news across various categories.}
+            \resumeItem{Integrated NewsAPI to provide users with real-time news updates.}
+            \resumeItem{Ensured a user-friendly interface for easy navigation and information access.}
+            \resumeItem{Built an "Up-Button" feature to enhance UI experience, improving navigation and overall usability.}
+        \resumeItemListEnd
+        \small{\href{https://atozlive-news.netlify.app/}{\underline{Live Demo}} ~ | ~ 
+        \href{https://github.com/MohdAzimuddin/livenews}{\underline{Source Code}}}
+
+    \resumeProjectHeading
+        {Code Editor - HTML, CSS, JavaScript}{Aug 2024}
+        \resumeItemListStart
+            \resumeItem{Built a lightweight, responsive online code editor for HTML, CSS, and JavaScript.}
+            \resumeItem{Implemented live preview functionality to display code changes in real-time.}
+            \resumeItem{Incorporated a section reset feature for quick and easy code clearing.}
+            \resumeItem{Prioritized code readability and maintainability through proper formatting and indentation.}
+        \resumeItemListEnd
+        \small{\href{https://1codeeditor.netlify.app/}{\underline{Live Demo}} ~ | ~ 
+        \href{https://github.com/MohdAzimuddin/codeeditor}{\underline{Source Code}}}
+
+    \resumeProjectHeading
+        {Personal Portfolio Website - React.js, CSS, Framer Motion, React Icons}{Sep 2024}
+        \resumeItemListStart
+            \resumeItem{Built a visually appealing and responsive portfolio website to showcase skills and experience.}
+            \resumeItem{Incorporated React.js for building interactive and dynamic web components.}
+            \resumeItem{Integrated Framer Motion to create a smooth and engaging UI design.}
+            \resumeItem{Used React Icons to enhance the visual presentation of the website.}
+        \resumeItemListEnd
+        \small{\href{https://mohdazimuddinport.netlify.app}{\underline{Live Demo}} ~ | ~ 
+        \href{https://github.com/MohdAzimuddin/myportfolio}{\underline{Source Code}}}
+\resumeSubHeadingListEnd
+
+%-----------STRENGTHS-----------
+\section{STRENGTHS}
+\resumeItemListStart
+\resumeItem{\textbf{Expertise} in developing SEO-optimized, responsive web applications.}
+\resumeItem{\textbf{Proficiency} in UI/UX design, creating visually appealing and intuitive interfaces that enhance overall user experience.}
+\resumeItem{\textbf{Rapid learner} and a dedicated individual with a strong focus on critical thinking and continuous learning.}
+\resumeItem{\textbf{Highly collaborative} and supportive team member with excellent interpersonal skills.}
+\resumeItemListEnd
+
+%-----------VOLUNTEERING-----------
+\section{Volunteering}
+\resumeItemListStart
+\resumeItem{\textbf{Volunteer: Computer Skills and HTML/CSS Fundamentals Instructor. Improved students' computer proficiency and foundational web development skills} \hfill {Sep 2023 -- Aug 2024}}
+\resumeItemListEnd
+
+\end{document}
